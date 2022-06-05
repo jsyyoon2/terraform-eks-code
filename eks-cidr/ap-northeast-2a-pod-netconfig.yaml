@@ -1,0 +1,8 @@
+apiVersion: crd.k8s.amazonaws.com/v1alpha1
+kind: ENIConfig
+metadata:
+ name: ap-northeast-2a-pod-netconfig
+spec:
+ subnet: subnet-0faef5720e14e3409
+ securityGroups:
+ - sg-0e4bb7327cb7d15bd
